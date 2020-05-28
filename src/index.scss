@@ -12,6 +12,7 @@ body {
 }
 
 .todo { 
+  display: flex; 
   position: absolute;
   left: 50%;
   top: 50%;
@@ -29,6 +30,10 @@ body {
       padding: 60px 20px;
     }
    
+    &__tasks { 
+      flex: 1; 
+      padding: 60px;
+    }
 }
 
 
@@ -46,6 +51,8 @@ body {
     border-color: #c4c0c0;
   }
 }
+
+
 
 .button { 
   background: #4DD599;
